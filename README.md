@@ -2,6 +2,8 @@
 
 A lightweight KWin script for KDE Plasma 6 (Wayland & X11) that forces Yakuake's top Y-coordinate to a configurable pixel offset every time it expands.
 
+![Ugly Gap](images/image.png "Gap between floating panel and Yakuake.")  ![No gap](images/image2.png "Script activated, no more gap!")
+
 ## Why This Exists
 
 When using a **Floating** top panel in KDE Plasma 6, Plasma reserves extra vertical strut padding around the panel's bounding box. Because Yakuake recalculates its position against the screen's available work area on every expansion, it leaves a noticeable gap between the bottom of the floating panel and the top of the terminal—and standard KWin Window Rules are overridden each time Yakuake retracts and reopens.
