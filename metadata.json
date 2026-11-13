@@ -1,0 +1,18 @@
+{
+    "KPackageStructure": "KWin/Script",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "TheBigWazz"
+            }
+        ],
+        "Description": "Forces Yakuake Y-position on every expand to eliminate gaps under floating top panels",
+        "Id": "yakuake-snap",
+        "License": "GPL-3.0-or-later",
+        "Name": "Yakuake Snap Position",
+        "Version": "1.1"
+    },
+    "X-KDE-ConfigModule": "kwin/effects/configs/kcm_kwin4_genericscripted",
+    "X-Plasma-API": "javascript",
+    "X-Plasma-MainScript": "code/main.js"
+}

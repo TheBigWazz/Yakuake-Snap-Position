@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>KWin::YakuakeSnapConfigForm</class>
+ <widget class="QWidget" name="KWin::YakuakeSnapConfigForm">
+  <layout class="QFormLayout" name="formLayout">
+   <item row="0" column="0">
+    <widget class="QLabel" name="label_TargetY">
+     <property name="text">
+      <string>Top Y Offset (px):</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QSpinBox" name="kcfg_TargetY">
+     <property name="minimum">
+      <number>0</number>
+     </property>
+     <property name="maximum">
+      <number>500</number>
+     </property>
+     <property name="suffix">
+      <string> px</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+</ui>
